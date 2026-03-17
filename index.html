@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Futbol Oylama</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1 id="leagueTitle">Albon Takımlar Savaşı </h1>
+    <button id="themeToggle">🌙 Gece Modu</button>
+    <button onclick="resetVotes()" class="resetBtn">🔄 Oyları Sıfırla</button>
+</header>
+
+<!-- TOP 3 SCOREBOARD -->
+<div id="scoreboard">
+    <div id="first" class="sb-item first-place"></div>
+    <div id="second" class="sb-item second-place"></div>
+    <div id="third" class="sb-item third-place"></div>
+</div>
+
+<!-- TAKIMLAR -->
+<div id="teams" class="grid"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
